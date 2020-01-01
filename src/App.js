@@ -1,12 +1,15 @@
 import React from 'react';
-import Header from './components/layouts/Header/Header';
-import HomeSlider from './components/layouts/Sliders/HomeSlider';
+import Home from './components/pages/Home';
+import Error from './components/pages/Error';
+import {BrowserRouter as Router,  Route, Switch } from "react-router-dom";
 function App() {
     return (
-        <>
-            <Header/>
-            <HomeSlider/>
-        </>
+        <Router>
+            <Switch>
+                <Route exact path="/" component={Home}/>
+                <Route exact component={Error}/>
+            </Switch>
+        </Router>
     );
 }
 
