@@ -2,6 +2,8 @@ import React from 'react';
 import Header from '../layouts/Header/Header';
 import HomeSlider from '../layouts/Sliders/HomeSlider';
 import IntroBlock from '../layouts/IntroBlock/IntroBlock';
+import BenefitsBlock from '../layouts/BenefitsBlock/BenefitsBlock';
+
 import styled from 'styled-components';
 const  Home = ()  =>{
     return (
@@ -10,8 +12,7 @@ const  Home = ()  =>{
             <MainHeading>Loper Home page</MainHeading>
             <HomeSlider/>
             <IntroBlock/>
-
-
+            <BenefitsBlock/>
         </>
     );
 };
