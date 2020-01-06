@@ -3,6 +3,7 @@ import Header from '../layouts/Header/Header';
 import HomeSlider from '../layouts/Sliders/HomeSlider';
 import IntroBlock from '../layouts/IntroBlock/IntroBlock';
 import BenefitsBlock from '../layouts/BenefitsBlock/BenefitsBlock';
+import WhatWeDoBlock from '../layouts/WhatWeDoBlock/WhatWeDoBlock';
 
 import styled from 'styled-components';
 const  Home = ()  =>{
@@ -13,6 +14,8 @@ const  Home = ()  =>{
             <HomeSlider/>
             <IntroBlock/>
             <BenefitsBlock/>
+            <WhatWeDoBlock/>
+
         </>
     );
 };
