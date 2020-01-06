@@ -4,6 +4,8 @@ import HomeSlider from '../layouts/Sliders/HomeSlider';
 import IntroBlock from '../layouts/IntroBlock/IntroBlock';
 import BenefitsBlock from '../layouts/BenefitsBlock/BenefitsBlock';
 import WhatWeDoBlock from '../layouts/WhatWeDoBlock/WhatWeDoBlock';
+import NewsletterBlock from '../layouts/NewsletterBlock/NewsletterBlock';
+import Footer from '../layouts/Footer/Footer';
 
 import styled from 'styled-components';
 const  Home = ()  =>{
@@ -15,7 +17,8 @@ const  Home = ()  =>{
             <IntroBlock/>
             <BenefitsBlock/>
             <WhatWeDoBlock/>
-
+            <NewsletterBlock/>
+            <Footer/>
         </>
     );
 };
